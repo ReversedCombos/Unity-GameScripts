@@ -1,0 +1,10 @@
+The "PlayerMovementInput" and "Moisty" scirpts are supposted to go on the root parent of the Player.
+
+The functionality includes Walking, Running, Jumping, Crouching, Sliding, and Looking(FOV-Change included). The tags for the ground and water are "Ground" and
+"Water" respectivly.
+
+I've commented most of the code so it should be slightly readable. Everything is controlled by the Update function, which returns a Boolean based off of the
+movement. This is used to stop other functions from running while certin functions play. Example -(If the player presses Shift and Ctrl at the same time while 
+moving it will slide and the fucntion "SlideCheck()" will return true.)
+
+"PlayerMovementInput" also uses InputActions from unity named "PlayerActions". This will be uploaded later.
