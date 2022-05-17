@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//Used for an EnemyAI - Has four states - Patroling - Following - Shooting - Fleeing
+
 public class EnemyAIController : MonoBehaviour
 {
     [Header("Radius")]
