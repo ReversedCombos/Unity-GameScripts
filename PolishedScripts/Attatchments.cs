@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This is an attatchment script that can modify values like damage and reload speed based on what attatchment is active.
+//The gameObjects state are based off the Booleans and those gameObjects have the effects which is "AttatchmentEffects"
 
 public class Attatchments : MonoBehaviour
 {
